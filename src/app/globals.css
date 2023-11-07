@@ -25,3 +25,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@media only screen and (min-width: 600px)  {
+  #navBarContainer {
+    visibility: visible;
+    /*border-bottom: 4px solid #ffffff;*/
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navBarContainer {
+    visibility: hidden;
+  }
+}
+
+#navBar {
+  display: flex;
+  justify-content: center;
+}
